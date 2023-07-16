@@ -1,19 +1,33 @@
 /* CSS */
-:root { font-family: 'Inter', sans-serif; }
+:root {
+  font-family: "Inter", sans-serif;
+}
 @supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
 }
 h1 {
-    color: green;
+  color: green;
+  margin: 0;
+  margin-top: 32px;
 }
 
 h2 {
-    color: blue;
+  color: rgb(117, 177, 117);
+  margin: 0;
+  margin-bottom: 32px;
 }
 
-p {
-    color: green;
+/* p {
+  color: green;
+} */
+
+h3 {
+  font-size: medium;
 }
-h3{
-    font-size:medium;
+
+main {
+  margin: 0 auto;
+  max-width: 800px;
 }
