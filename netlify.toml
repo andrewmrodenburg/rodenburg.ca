@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://wedding.rodenburg.ca/*"
+  to = "https://withjoy.com/andrew-julia/:splat"
+  status = 301
+  force = true
